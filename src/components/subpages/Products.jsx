@@ -139,6 +139,40 @@ const Products = () => {
             <div className="h-64 bg-[#ded9ba] flex items-center justify-center overflow-hidden">
               <img 
                 ref={imageRef} 
+                src="/images/protego.png" 
+                alt="W0W Noodles" 
+                className="max-h-full transition-transform duration-300"
+              />
+            </div>
+            <div ref={contentRef} className="p-6">
+              <h3 className="text-2xl font-bold text-[#ded9ba] mb-4">ProTEGO™</h3>
+              <div ref={tagsRef} className="mb-4">
+                <span className="inline-block bg-[#ded9ba] text-[#8f9962] px-3 py-1 rounded-full text-sm font-semibold mr-2">32g* Protein</span>
+                <span className="inline-block bg-[#ded9ba] text-[#8f9962] px-3 py-1 rounded-full text-sm font-semibold mr-2">13g* Fibre</span>
+                <span className="inline-block bg-[#ded9ba] text-[#8f9962] px-3 py-1 rounded-full text-sm font-semibold mr-2">27g* Carbs</span>
+                <span className="inline-block bg-[#ded9ba] text-[#8f9962] px-3 py-1 rounded-full text-sm font-semibold">Gut Health</span>
+              </div>
+              <p className="text-white mb-6">
+                An earth friendly functional staple to address sub-optimal consumption of protein and fibre,made with repurposed peanut protein and sweet potato fibre.
+              </p>
+              <div className="flex justify-center">
+                <button
+                  className="button-85"
+                  onClick={() => window.location.href = 'https://www.w0wnoodle.com/'}
+                >
+                  More on ProTEGO™
+                </button>
+              </div>
+              <p className="text-white text-xs mt-4 text-center opacity-75 text-right">*per 100g</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="max-w-2xl mx-auto pt-10">
+          <div ref={cardRef} className="bg-[#8f9962] rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+            <div className="h-64 bg-[#ded9ba] flex items-center justify-center overflow-hidden">
+              <img 
+                ref={imageRef} 
                 src="/images/noodles.png" 
                 alt="W0W Noodles" 
                 className="max-h-full transition-transform duration-300"

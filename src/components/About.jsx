@@ -78,9 +78,15 @@ const About = () => {
             
             <div>
               <h4 className="text-xl font-semibold text-[#ded9ba] mb-2">Functional Staple Foods</h4>
-              <p className="text-white">
-                We believe in transforming staple foods into therapeutic options to address health management compliance issues.
+              <p className="text-white mb-2">
+                We believe food is a pillar of health and staple foods can be therapeutic solutions. 
               </p>
+              <div 
+                className="text-#ded9ba hover:text-green-900 transition-colors duration-200 cursor-pointer"
+                onClick={() => window.location.href = 'https://www.w0wnoodle.com/'}
+              >
+                Learn more about ProTEGO™ - Our latest innovation for health of people and earth.
+              </div>
             </div>
           </div>
         </div>

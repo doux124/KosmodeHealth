@@ -8,6 +8,7 @@ import Industries from './Industries';
 import Footer from './Footer';
 import CallToAction from './subpages/CallToAction';
 import Testimonials from './Testimonials';
+import ProTEGO from './ProTEGO';
 
 const Main = () => {
   return (
@@ -23,6 +24,7 @@ const Main = () => {
       <Founders />
       <Technologies />
       <Industries />
+      <ProTEGO />
       <Testimonials />
       <Footer />
     </div>

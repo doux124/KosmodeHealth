@@ -85,9 +85,9 @@ const Industries = () => {
                 </p>
               </div>
               <div>
-                <h4 className="text-xl font-semibold text-[#8f9962] mb-2">Consulting and Training</h4>
+                <h4 className="text-xl font-semibold text-[#8f9962] mb-2">Valorization and food formulation services</h4>
                 <p className="text-gray-700">
-                  We offer expertise on food waste valorisation, functional food formulation, and sustainable practices in the food industry.
+                  We enable food manufacturers to repurpose their food processing wastes into high value functional ingredients and food for health & nutrition.
                 </p>
               </div>
             </div>
